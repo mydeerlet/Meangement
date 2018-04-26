@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Car66Management"
+  id="myeclipse.1524214203973"
+  context-root="/Car66Management"
+  j2ee-spec="5.0"
+  archive="Car66Management.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  
+    <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <description>This is the description of my 后台</description>
+    <display-name>后台</display-name>
+    <servlet-name>LoginService</servlet-name>
+    <servlet-class>login.LoginService</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LoginService</servlet-name>
+    <url-pattern>/servlet/LoginService</url-pattern>
+  </servlet-mapping>
+ 
+
+  
+</web-app>
